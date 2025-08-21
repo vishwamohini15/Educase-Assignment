@@ -2,8 +2,9 @@ import React from 'react';
 
 const LandingPage = ({ setScreen }) => {
     return (
-        <div className=" w-full  md:p-1 overflow-hidden min-h-[81vh] flex flex-col justify-end">
-            <div className="login h-full flex flex-col justify-end p-6 md:p-8">
+        <div className="w-full min-h-[81vh] flex flex-col justify-end">
+            {/* Wrapper jo content ko bottom me rakhega */}
+            <div className="p-6 md:p-8">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
                     Welcome to PopX
                 </h1>

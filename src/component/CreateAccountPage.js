@@ -4,7 +4,7 @@ import { ChevronLeft } from 'lucide-react';
 const CreateAccountPage = ({ setScreen }) => {
 
     return (
-        <div className="max-h-[100vh] flex flex-col p-1 md:p-1">
+        <div className="max-h-[100vh] flex flex-col p-1 md:p-1 mx-5">
             <div className="flex items-center mb-1">
                 <button onClick={() => setScreen('welcome')} className="text-gray-600 hover:text-gray-800 transition-colors">
                     <ChevronLeft size={24} />
